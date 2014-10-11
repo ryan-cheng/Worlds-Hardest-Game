@@ -1,0 +1,20 @@
+import zen.core.Zen;
+
+
+public class World {
+
+	public static void main(String[] args) {
+		Zen.create(800,500);
+		Zen.setBackground("pale turquoise");
+		Zen.setColor("light green");
+		Zen.fillRect(25,125,75,150);
+		Zen.setColor("gray");
+		Zen.fillRect(100, 250, 80, 25);
+		Zen.fillRect(150,150,300,100);
+		Zen.fillRect(420, 130, 80, 25);
+		Zen.setColor("light green");
+		Zen.fillRect(500,130,75,150);
+		
+	}
+
+}
